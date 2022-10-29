@@ -6,47 +6,42 @@
     <title>Express Vip Pizzas || Pedidos</title>
     <link rel="icon" href="../Imagenes/logo.png" type="image/png">
     <link rel="stylesheet" href="../estilos.css">
-   
+
 </head>
 
 <body>
     <div class="menu">
-        
+
         <div id="banner">
-        
+
             <div id="logo">
                 <a href="principal.html"><img id="imagen_logo" src="../Imagenes/logo.png" alt="logo"></a>
             </div>
-    
+
             <div id="titulo">
                 <h1>Express Vip Pizzas</h1>
             </div>
-            
+
         </div>
 
         <div id="menu_opciones">
             <div>
-                <a href="principal.html" class="link" >Inicio</a>
-            </div>
-    
-            <div>
-                <a class="link" href="carta.html" >Carta</a>
-            </div>
-    
-            <div>
-                <a class="link" href="pedidos.html" >Realizar pedido</a>
-            </div>
-    
-            <div>
-                <a class="link" href="centros.html" >Centros</a>
+                <a href="principal.html" class="link">Inicio</a>
             </div>
 
             <div>
-                <a href="mailto:javirodriguezbnk@gmail.com"><img id="contacto" src="../Imagenes/contacto.png"
-                        alt="contáctame"></a>
+                <a class="link" href="carta.html">Carta</a>
+            </div>
+
+            <div>
+                <a class="link" href="pedidos.html">Realizar pedido</a>
+            </div>
+
+            <div>
+                <a href="mailto:javirodriguezbnk@gmail.com"><img id="contacto" src="../Imagenes/contacto.png" alt="contáctame"></a>
             </div>
         </div>
-        
+
     </div>
 
     <br><br>
@@ -56,12 +51,12 @@
         <form method="GET" action="pedido_realizado.html" name="pedido">
             <fieldset>
                 <div class="titulo_form">
-                    <h1 >Tu pedido</h1>
+                    <h1>Tu pedido</h1>
                 </div>
                 <br><br>
                 <label for="pizza">Elige sus pizzas: </label>
                 <br>
-                <select name="Pizzas" id="pizza" multiple size="5" >
+                <select name="Pizzas" id="pizza" multiple size="5">
                     
                     <optgroup class="tipo" label="Tradicionales:">
                         <option value="Margarita">1.Margarita</option>
@@ -118,9 +113,9 @@
                 </select>
             </fieldset>
 
-            <fieldset >
+            <fieldset>
                 <div class="titulo_form">
-                    <h1 >Rellene sus datos</h1>
+                    <h1>Rellene sus datos</h1>
                 </div>
                 <br>
                 <label for="nombre">Nombre:</label><br> <input type="text" name="nombre" id="nombre" maxlength="20">
@@ -138,13 +133,13 @@
                 <label for="indicaciones">Indicaciones para el rapartidor en caso de haber marcado la casilla de envío a domicilio:</label>
                 <br>
                 <textarea name="indicaciones" id="indicaciones" cols="50" rows="5"></textarea>
-    
+
             </fieldset>
             <br>
             <input type="submit" name="Enviar" value="Finalizar pedido"> <input type="reset" name="Borrar" value="Borrar pedido">
         </form>
     </div>
-    
+
 </body>
 
 </html>
