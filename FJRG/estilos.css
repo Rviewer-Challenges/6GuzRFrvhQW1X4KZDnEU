@@ -1,0 +1,207 @@
+
+body{
+    margin-top: 0;
+    background-image: url(../FJRG/Imagenes/fondo.jpg);
+    background-attachment: fixed;
+}
+
+.menu a:link{
+    color:white;
+    text-decoration:none;
+    
+}
+.menu a:visited{
+    color:white;
+    text-decoration:none;
+    
+}
+.menu a:hover{
+    
+    color:rgb(240, 236, 0);
+    text-decoration:none;
+}
+
+.menu a:active{
+    color:  rgb(255, 105, 45);
+    text-decoration:none;
+    
+}
+
+
+.menu{
+    
+    
+    font-weight: bolder;
+    background-color: rgba(15, 226, 15, 0.884);
+    height:70px;
+    width: 100%;
+    position:fixed;
+    
+}
+
+#menu_opciones{
+    display:inline-block;
+    width: 70%;
+    margin-top:15px;
+}
+#menu_opciones div{
+    width:fit-content; 
+    display:inline-block;
+    margin-left:30px;
+    font-size: 25pt;
+}
+#contacto {
+    width:55px;
+    display: flexbox;
+    position: absolute;
+    top: 8px;
+    right:150px;
+}
+
+.menu #titulo{
+    color: rgb(240, 236, 0);
+    font-size:15pt;
+    padding-left:0;
+    margin-left:0;
+    
+}
+
+.menu #titulo h1{
+    margin-top:0;
+    margin-bottom:0;
+    
+}
+
+#logo {
+    
+    padding-left:0pt;
+    margin-top:0px;
+    width: fit-content;
+    height:55px;
+    float: left;
+}
+
+#banner{
+    
+    width:30%;
+    height:55px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 10px;
+    
+}
+
+#imagen_logo{
+    width:55px;
+    
+}
+#tipo_pizza{
+    font-weight: bolder;
+}
+
+#contenidos{
+    width:100%;
+    height:fit-content;
+    display:inline-block;
+    text-align: center;
+    
+}
+
+.producto{
+    
+    width:35%;
+    height:500px;
+    background-color: rgba(185, 255, 191, 0.753);
+    padding:5px;
+    box-shadow: 10px 10px 10px #666;
+    margin-right:10px;
+    margin-bottom:30px;
+    display:inline-block;
+    text-align: center;
+    border-radius: 10px;
+
+    
+}
+
+.producto p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.sabor{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.producto img{
+    width:100%;
+    height:fit-content;
+    border-radius: 5px;
+}
+
+.tipo_pizza{
+
+    color:  rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgba(185, 255, 191, 0.753);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#mapa{
+    margin-top: 30px;
+    margin-left: 25%;
+}
+
+#formulario_pedido{
+    
+    width: 900px;
+    height:fit-content;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top:50px;
+    margin-bottom:50px;
+    background-color:  rgba(185, 255, 191, 0.753) ;
+    box-shadow: 10px 10px 10px  #666;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+.titulo_form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+    
+    
+}
+
+#formulario_pedido fieldset{
+    border:0px;
+}
+
+#formulario_pedido select{
+    width:200px;
+    height:150px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#formulario_pedido label{
+    font-weight: bold;
+}
+
+#formulario_pedido textarea{
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#formulario_pedido input{
+    border-radius: 5px;
+}
+#formulario_pedido label:hover{
+    color: rgb(255, 123, 0);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+

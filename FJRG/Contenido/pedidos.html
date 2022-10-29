@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Express Vip Pizzas || Pedidos</title>
+    <link rel="icon" href="../Imagenes/logo.png" type="image/png">
+    <link rel="stylesheet" href="../estilos.css">
+   
+</head>
+
+<body>
+    <div class="menu">
+        
+        <div id="banner">
+        
+            <div id="logo">
+                <a href="principal.html"><img id="imagen_logo" src="../Imagenes/logo.png" alt="logo"></a>
+            </div>
+    
+            <div id="titulo">
+                <h1>Express Vip Pizzas</h1>
+            </div>
+            
+        </div>
+
+        <div id="menu_opciones">
+            <div>
+                <a href="principal.html" class="link" >Inicio</a>
+            </div>
+    
+            <div>
+                <a class="link" href="carta.html" >Carta</a>
+            </div>
+    
+            <div>
+                <a class="link" href="pedidos.html" >Realizar pedido</a>
+            </div>
+    
+            <div>
+                <a class="link" href="centros.html" >Centros</a>
+            </div>
+
+            <div>
+                <a href="mailto:javirodriguezbnk@gmail.com"><img id="contacto" src="../Imagenes/contacto.png"
+                        alt="contáctame"></a>
+            </div>
+        </div>
+        
+    </div>
+
+    <br><br>
+    <br><br>
+
+    <div id="formulario_pedido">
+        <form method="GET" action="pedido_realizado.html" name="pedido">
+            <fieldset>
+                <div class="titulo_form">
+                    <h1 >Tu pedido</h1>
+                </div>
+                <br><br>
+                <label for="pizza">Elige sus pizzas: </label>
+                <br>
+                <select name="Pizzas" id="pizza" multiple size="5" >
+                    
+                    <optgroup class="tipo" label="Tradicionales:">
+                        <option value="Margarita">1.Margarita</option>
+                        <option value="Prosciutto">2.Prosciutto</option>
+                        <option value="Prosciutto e Funghi">3.Prosciutto e Funghi</option>
+                        <option value="Huevona">4.Huevona</option>
+                        <option value="Cotto e Tonno">5.Cotto e Tonno</option>
+                        <option value="Hawaiana">6.Hawaiana</option>
+                        <option value="Vegetal">7.Vegetal</option>
+                        <option value="Tonnara e Pimento">8.Tonnara e Pimento</option>
+                        <option value="Bacon e Tonno">9.Bacon e Tonno</option>
+                        <option value="Hot">10.Hot</option>
+                        <option value="Barbacoa">11.Barbacoa</option>
+                        <option value="Barbacoa Crujiente">12.Barbacoa Crujiente</option>
+                        <option value="Diavola">13.Diavola</option>
+                        <option value="Pepperoni e Bacon">14.Pepperoni e Bacon</option>
+                        <option value="Camera">15.Camera</option>
+                        <option value="Cuatro Formaggi">16.Cuatro Formaggi</option>
+                        <option value="Duquesa">17.Duquesa</option>
+                        <option value="Magnífica">18.Magnífica</option>
+                        <option value="Carbonara">19.Carbonara</option>
+                        <option value="Atleta">20.Atleta</option>
+                    </optgroup>
+                    <optgroup label="Gourmet:">
+                        <option value="Mediterránea">21.Mediterránea</option>
+                        <option value="Serranito Mojo">22.Serranito Mojo</option>
+                        <option value="Serranito Alioli">23.Serranito Alioli</option>
+                        <option value="César">24.César</option>
+                        <option value="BBQ Cremosa">25.BBQ Cremosa</option>
+                        <option value="Tartufata">26.Tartufata</option>
+                        <option value="Inferno">27.inferno</option>
+                        <option value="Tremenda">28.Tremenda</option>
+                        <option value="Sei Formaggi">29.Sei Formaggi</option>
+                        <option value="Sei Vegetale">30.Sei Vegetale</option>
+                        <option value="Queso Crema">31.Queso Crema</option>
+                    </optgroup>
+                    
+                </select>
+                <br><br>
+                <label for="postres">Elige tus postres:</label><br>
+                <select name="postres" id="postres" multiple>
+                    <option value="chocolate blanco">Tarta de Chocolate Blanco</option>
+                    <option value="tres chocolates belgas">Tarta de Tres Chocolates Belgas</option>
+                    <option value=" queso con fresas">Tarta de Queso con Fresas</option>
+                    <option value="queso con arandanos">Tarta de Queso con Arándanos</option>
+                    <option value="queso con dulce de leche">Tarta de Queso con dulce de leche</option>
+                    <option value="happy hippo">Tarta de Happy Hippo</option>
+                    <option value="kinder">Tarta de Kinder Bueno</option>
+                    <option value="Snickers">Tarta de Snickers</option>
+                    <option value="chocolate con galletas">Tarta de Chocolate con Galletas</option>
+                    <option value="oreo">Tarta de Oreo</option>
+                    <option value="ferrero">Tarta de Ferrero</option>
+                    <option value="queso horneado">Queso Horneado</option>
+                </select>
+            </fieldset>
+
+            <fieldset >
+                <div class="titulo_form">
+                    <h1 >Rellene sus datos</h1>
+                </div>
+                <br>
+                <label for="nombre">Nombre:</label><br> <input type="text" name="nombre" id="nombre" maxlength="20">
+                <br><br>
+                <label for="apellidos">Apellidos:</label> <br><input type="text" name="apellidos" id="apellidos" maxlength="40">
+                <br><br>
+                <label for="telefono">Número de teléfono: </label> <br> <input type="text" name="telefono" id="telefono" maxlength="9" size="9">
+                <br><br>
+                <input type="radio" name="domicilio" id="reparto"> <label for="reparto">Quiero que me lleven mi pedido a casa (3€ adicionales).</label>
+                <br>
+                <input type="radio" name="domicilio" id="recoger"> <label for="recoger">Quiero recoger mi pedido en tienda.</label>
+                <br><br>
+                <label for="direccion">Dirección de envío:</label><br> <input type="text" name="direccion" id="direccion" maxlength="70">
+                <br><br>
+                <label for="indicaciones">Indicaciones para el rapartidor en caso de haber marcado la casilla de envío a domicilio:</label>
+                <br>
+                <textarea name="indicaciones" id="indicaciones" cols="50" rows="5"></textarea>
+    
+            </fieldset>
+            <br>
+            <input type="submit" name="Enviar" value="Finalizar pedido"> <input type="reset" name="Borrar" value="Borrar pedido">
+        </form>
+    </div>
+    
+</body>
+
+</html>
